@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2月旅行プラン</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <img src="images/hero-bg.jpg" alt="" class="hero-bg-image">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-tag">KYUSHU TRIP 2025</span>
+            <h1 class="hero-title">2月旅行プラン</h1>
+            <p class="hero-subtitle">2月18日（土）〜 19日（日）/ 1泊2日</p>
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Members Section -->
+    <section class="members">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-en">MEMBERS</span>
+                <span class="title-ja">旅のメンバー</span>
+            </h2>
+            <div class="member-cards">
+                <div class="member-card">
+                    <div class="member-image">
+                        <img src="images/michishita.jpg" alt="道下">
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">マスターオブパブリック<br>ヘルスナース道下</h3>
+                        <p class="member-desc">ドレーン逆挿入男</p>
+                    </div>
+                </div>
+                <div class="member-card">
+                    <div class="member-image">
+                        <img src="images/morita.jpg" alt="森田くん">
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">森田くん</h3>
+                        <p class="member-desc">インスリン貰い事故男</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Common Info Section -->
+    <section class="common-info">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-en">DEPARTURE</span>
+                <span class="title-ja">共通の出発便</span>
+            </h2>
+            <div class="flight-card">
+                <div class="flight-route">
+                    <div class="flight-city">
+                        <span class="city-code">OKA</span>
+                        <span class="city-name">那覇</span>
+                    </div>
+                    <div class="flight-arrow">
+                        <svg width="60" height="24" viewBox="0 0 60 24">
+                            <path d="M0 12h55M50 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none"/>
+                        </svg>
+                        <span class="flight-time">1h 45min</span>
+                    </div>
+                    <div class="flight-city">
+                        <span class="city-code">FUK</span>
+                        <span class="city-name">福岡</span>
+                    </div>
+                </div>
+                <div class="flight-details">
+                    <div class="flight-detail">
+                        <span class="detail-label">便名</span>
+                        <span class="detail-value">Peach APJ252</span>
+                    </div>
+                    <div class="flight-detail">
+                        <span class="detail-label">出発</span>
+                        <span class="detail-value highlight">10:00</span>
+                    </div>
+                    <div class="flight-detail">
+                        <span class="detail-label">到着</span>
+                        <span class="detail-value">11:45</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section class="plans">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-en">PLANS</span>
+                <span class="title-ja">3つのプラン</span>
+            </h2>
+
+            <!-- Plan 1: Kumamoto -->
+            <article class="plan-card" id="kumamoto">
+                <div class="plan-header">
+                    <div class="plan-visual kumamoto">
+                        <div class="plan-badge">PLAN A</div>
+                        <div class="plan-icon">🌋</div>
+                    </div>
+                    <div class="plan-title-area">
+                        <h3 class="plan-name">熊本</h3>
+                        <p class="plan-subtitle">阿蘇・黒川温泉</p>
+                        <div class="plan-price">
+                            <span class="price-label">予算（1人）</span>
+                            <span class="price-value">¥21,500</span>
+                            <span class="price-note">※宿泊・食事別</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="plan-content">
+                    <!-- Schedule -->
+                    <div class="plan-section">
+                        <h4 class="plan-section-title">
+                            <span class="icon">📅</span> 日程
+                        </h4>
+                        <div class="schedule">
+                            <div class="schedule-day">
+                                <span class="day-label">DAY 1</span>
+                                <div class="schedule-items">
+                                    <div class="schedule-item">
+                                        <span class="time">10:00</span>
+                                        <span class="event">那覇発（Peach）</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <span class="time">11:45</span>
+                                        <span class="event">福岡着</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <span class="time">13:00</span>
+                                        <span class="event">博多発（新幹線みずほ）</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <span class="time">13:32</span>
+                                        <span class="event">熊本着 → レンタカー</span>
+                                    </div>
+                                    <div class="schedule-item free">
+                                        <span class="time">14:00〜</span>
+                                        <span class="event">観光・宿泊</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="schedule-day">
+                                <span class="day-label">DAY 2</span>
+                                <div class="schedule-items">
+                                    <div class="schedule-item free">
+                                        <span class="time">〜14:00</span>
+                                        <span class="event">観光</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <span class="time">14:30</span>
+                                        <span class="event">熊本発（新幹線みずほ）</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <span class="time">15:02</span>
+                                        <span class="event">博多着</span>
+                                    </div>
+                                    <div class="schedule-item highlight">
+                                        <span class="time">19:10</span>
+                                        <span class="event">福岡発（スカイマーク）</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <span class="time">21:00</span>
+                                        <span class="event">那覇着</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Spots -->
+                    <div class="plan-section">
+                        <h4 class="plan-section-title">
+                            <span class="icon">📍</span> おすすめ観光スポット
+                        </h4>
+                        <div class="spots-list">
+                            <div class="spot-item">
+                                <span class="spot-number">01</span>
+                                <div class="spot-content">
+                                    <h5 class="spot-name">阿蘇山</h5>
+                                    <p class="spot-desc">世界最大級のカルデラを持つ活火山。噴煙を上げる火口は迫力満点。</p>
+                                </div>
+                            </div>
+                            <div class="spot-item">
+                                <span class="spot-number">02</span>
+                                <div class="spot-content">
+                                    <h5 class="spot-name">草千里ヶ浜</h5>
+                                    <p class="spot-desc">阿蘇山中腹の広大な草原。放牧された馬や牛がのんびり過ごす。</p>
+                                </div>
+                            </div>
+                            <div class="spot-item">
+                                <span class="spot-number">03</span>
+                                <div class="spot-content">
+                                    <h5 class="spot-name">阿蘇神社</h5>
+                                    <p class="spot-desc">2300年の歴史を誇る古社。日本三大楼門の一つを持つ。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Onsen & Gourmet -->
+                    <div class="plan-section-row">
+                        <div class="plan-section half">
+                            <h4 class="plan-section-title">
+                                <span class="icon">♨️</span> 温泉
+                            </h4>
+                            <div class="info-card">
+                                <h5>黒川温泉</h5>
+                                <p>全国的に有名な温泉街。露天風呂が多数あり、入湯手形で温泉巡りが楽しめる。</p>
+                            </div>
+                        </div>
+                        <div class="plan-section half">
+                            <h4 class="plan-section-title">
+                                <span class="icon">🍽️</span> グルメ
+                            </h4>
+                            <div class="gourmet-tags">
+                                <span class="gourmet-tag">馬刺し</span>
+                                <span class="gourmet-tag">赤牛ステーキ</span>
+                                <span class="gourmet-tag">いきなり団子</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Plan 2: Oita -->
+            <article class="plan-card" id="oita">
+                <div class="plan-header">
+                    <div class="plan-visual oita">
+                        <div class="plan-badge best">PLAN B</div>
+                        <div class="plan-icon">♨️</div>
+                    </div>
+                    <div class="plan-title-area">
+                        <h3 class="plan-name">大分</h3>
+                        <p class="plan-subtitle">由布院</p>
+                        <div class="plan-price">
+                            <span class="price-label">予算（1人）</span>
+                            <span class="price-value cheapest">¥13,050</span>
+                            <span class="price-note">※最安！宿泊・食事別</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="plan-content">
+                    <!-- Schedule -->
+                    <div class="plan-section">
+                        <h4 class="plan-section-title">
+                            <span class="icon">📅</span> 日程
+                        </h4>
+                        <div class="schedule">
+                            <div class="schedule-day">
+                                <span class="day-label">DAY 1</span>
+                                <div class="schedule-items">
+                                    <div class="schedule-item">
+                                        <span class="time">10:00</span>
+                                        <span class="event">那覇発（Peach）</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <span class="time">11:45</span>
+                                        <span class="event">福岡着 → レンタカー</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <span class="time">12:30</span>
+                                        <span class="event">福岡発（車・高速）</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <span class="time">14:00</span>
+                                        <span class="event">由布院着</span>
+                                    </div>
+                                    <div class="schedule-item free">
+                                        <span class="time">14:00〜</span>
+                                        <span class="event">観光・宿泊</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="schedule-day">
+                                <span class="day-label">DAY 2</span>
+                                <div class="schedule-items">
+                                    <div class="schedule-item free">
+                                        <span class="time">〜14:00</span>
+                                        <span class="event">観光</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <span class="time">14:30</span>
+                                        <span class="event">由布院発（車・高速）</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <span class="time">16:00</span>
+                                        <span class="event">福岡空港着</span>
+                                    </div>
+                                    <div class="schedule-item highlight">
+                                        <span class="time">19:10</span>
+                                        <span class="event">福岡発（スカイマーク）</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <span class="time">21:00</span>
+                                        <span class="event">那覇着</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Spots -->
+                    <div class="plan-section">
+                        <h4 class="plan-section-title">
+                            <span class="icon">📍</span> おすすめ観光スポット
+                        </h4>
+                        <div class="spots-list">
+                            <div class="spot-item">
+                                <span class="spot-number">01</span>
+                                <div class="spot-content">
+                                    <h5 class="spot-name">別府地獄めぐり</h5>
+                                    <p class="spot-desc">7つの地獄を巡る定番コース。海地獄・血の池地獄が人気。</p>
+                                </div>
+                            </div>
+                            <div class="spot-item">
+                                <span class="spot-number">02</span>
+                                <div class="spot-content">
+                                    <h5 class="spot-name">由布院温泉</h5>
+                                    <p class="spot-desc">由布岳を望む人気温泉地。風情ある街並みを散策。</p>
+                                </div>
+                            </div>
+                            <div class="spot-item">
+                                <span class="spot-number">03</span>
+                                <div class="spot-content">
+                                    <h5 class="spot-name">金鱗湖</h5>
+                                    <p class="spot-desc">由布院のシンボル。朝霧が立ち込める幻想的な湖。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Onsen & Gourmet -->
+                    <div class="plan-section-row">
+                        <div class="plan-section half">
+                            <h4 class="plan-section-title">
+                                <span class="icon">♨️</span> 温泉
+                            </h4>
+                            <div class="info-card">
+                                <h5>由布院温泉</h5>
+                                <p>全国屈指の人気温泉地。美肌の湯として有名。</p>
+                            </div>
+                        </div>
+                        <div class="plan-section half">
+                            <h4 class="plan-section-title">
+                                <span class="icon">🍽️</span> グルメ
+                            </h4>
+                            <div class="gourmet-tags">
+                                <span class="gourmet-tag">豊後牛</span>
+                                <span class="gourmet-tag">とり天</span>
+                                <span class="gourmet-tag">やせうま</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Plan 3: Kagoshima -->
+            <article class="plan-card" id="kagoshima">
+                <div class="plan-header">
+                    <div class="plan-visual kagoshima">
+                        <div class="plan-badge">PLAN C</div>
+                        <div class="plan-icon">🗻</div>
+                    </div>
+                    <div class="plan-title-area">
+                        <h3 class="plan-name">鹿児島</h3>
+                        <p class="plan-subtitle">桜島・霧島</p>
+                        <div class="plan-price">
+                            <span class="price-label">予算（1人）</span>
+                            <span class="price-value">¥23,500</span>
+                            <span class="price-note">※宿泊・食事別</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="plan-content">
+                    <!-- Schedule -->
+                    <div class="plan-section">
+                        <h4 class="plan-section-title">
+                            <span class="icon">📅</span> 日程
+                        </h4>
+                        <div class="schedule">
+                            <div class="schedule-day">
+                                <span class="day-label">DAY 1</span>
+                                <div class="schedule-items">
+                                    <div class="schedule-item">
+                                        <span class="time">10:00</span>
+                                        <span class="event">那覇発（Peach）</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <span class="time">11:45</span>
+                                        <span class="event">福岡着</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <span class="time">13:00</span>
+                                        <span class="event">博多発（新幹線みずほ）</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <span class="time">14:20</span>
+                                        <span class="event">鹿児島中央着 → レンタカー</span>
+                                    </div>
+                                    <div class="schedule-item free">
+                                        <span class="time">15:00〜</span>
+                                        <span class="event">観光・宿泊</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="schedule-day">
+                                <span class="day-label">DAY 2</span>
+                                <div class="schedule-items">
+                                    <div class="schedule-item free">
+                                        <span class="time">〜15:30</span>
+                                        <span class="event">観光</span>
+                                    </div>
+                                    <div class="schedule-item highlight warning">
+                                        <span class="time">17:50</span>
+                                        <span class="event">鹿児島発（ソラシドエア）</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <span class="time">19:20</span>
+                                        <span class="event">那覇着</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="schedule-note">⚠️ 帰りの便が17:50発と早めです</p>
+                    </div>
+
+                    <!-- Spots -->
+                    <div class="plan-section">
+                        <h4 class="plan-section-title">
+                            <span class="icon">📍</span> おすすめ観光スポット
+                        </h4>
+                        <div class="spots-list">
+                            <div class="spot-item">
+                                <span class="spot-number">01</span>
+                                <div class="spot-content">
+                                    <h5 class="spot-name">桜島</h5>
+                                    <p class="spot-desc">鹿児島のシンボル。フェリーで渡り、噴煙上げる活火山を間近で体感。</p>
+                                </div>
+                            </div>
+                            <div class="spot-item">
+                                <span class="spot-number">02</span>
+                                <div class="spot-content">
+                                    <h5 class="spot-name">仙巌園</h5>
+                                    <p class="spot-desc">島津家の別邸。桜島を望む美しい庭園と歴史的建造物。</p>
+                                </div>
+                            </div>
+                            <div class="spot-item">
+                                <span class="spot-number">03</span>
+                                <div class="spot-content">
+                                    <h5 class="spot-name">城山展望台</h5>
+                                    <p class="spot-desc">鹿児島市内を一望。桜島と錦江湾の絶景スポット。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Onsen & Gourmet -->
+                    <div class="plan-section-row">
+                        <div class="plan-section half">
+                            <h4 class="plan-section-title">
+                                <span class="icon">♨️</span> 温泉
+                            </h4>
+                            <div class="info-card">
+                                <h5>霧島温泉郷</h5>
+                                <p>多彩な泉質の温泉が楽しめる。自然に囲まれた露天風呂が魅力。</p>
+                            </div>
+                        </div>
+                        <div class="plan-section half">
+                            <h4 class="plan-section-title">
+                                <span class="icon">🍽️</span> グルメ
+                            </h4>
+                            <div class="gourmet-tags">
+                                <span class="gourmet-tag">黒豚しゃぶしゃぶ</span>
+                                <span class="gourmet-tag">さつま揚げ</span>
+                                <span class="gourmet-tag">鶏飯</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">Let's have a great trip! 🛫</p>
+            <p class="footer-date">2025.02.18-19</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
